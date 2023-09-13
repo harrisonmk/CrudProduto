@@ -38,7 +38,7 @@ namespace CrudProduto
         }
 
 
-        // Método para remover um produto com base no ID
+        
         public bool removerProdutoPorId(int id)
         {
             Produto? produtoParaRemover = listaDeProdutos.FirstOrDefault(p => p.Id == id);
@@ -46,16 +46,16 @@ namespace CrudProduto
             if (produtoParaRemover != null)
             {
                 listaDeProdutos.Remove(produtoParaRemover);
-                return true; // Produto removido com sucesso
+                return true; 
             }
             else
             {
-                return false; // Produto com o ID especificado não encontrado
+                return false; 
             }
         }
 
 
-        // Método para editar o nome do produto por ID
+        
         public bool editarNomePorId(int id)
         {
            bool verifica = buscaProdutoPorId(id);
@@ -67,16 +67,16 @@ namespace CrudProduto
                 Console.Write("Digite o novo nome do produto: ");
                 String? novoNomee = Console.ReadLine();
                 produtoParaEditar.Nome = novoNomee;
-                return true; // Nome do produto editado com sucesso
+                return true; 
             }
             else
             {
-                return false; // Produto com o ID especificado não encontrado
+                return false; 
             }
         }
 
 
-        // Método para remover um produto com base no ID
+        
         public bool buscaProdutoPorId(int id)
         {
             Produto? produtoParaRemover = listaDeProdutos.FirstOrDefault(p => p.Id == id);
@@ -84,11 +84,11 @@ namespace CrudProduto
             if (produtoParaRemover != null)
             {
                 
-                return true; // Produto removido com sucesso
+                return true; 
             }
             else
             {
-                return false; // Produto com o ID especificado não encontrado
+                return false; 
             }
         }
 
@@ -148,8 +148,7 @@ namespace CrudProduto
                         Console.Write("\nDigite o ID do produto para ser Editado: ");
                         int id1 = Convert.ToInt32(Console.ReadLine());
 
-                        //Console.Write("Digite o novo nome do produto: ");
-                        //String? novoNome = Console.ReadLine();
+                        
 
                         bool teste = editarNomePorId(id1);
 
@@ -207,12 +206,12 @@ namespace CrudProduto
 
             if (decimal.TryParse(Console.ReadLine(), out valor))
             {
-                // A entrada foi convertida com sucesso para um número double
+                
             }
             else
             {
                 Console.WriteLine("Valor inválido. Certifique-se de inserir um número válido.");
-                // Aqui você pode adicionar lógica para lidar com a entrada inválida, se necessário.
+                
             }
 
             return new Produto(nome, valor);
