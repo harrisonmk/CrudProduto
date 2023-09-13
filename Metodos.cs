@@ -108,8 +108,8 @@ namespace CrudProduto
 
 
         private void imprimeItensMenu()
-        {
-            
+        { 
+           
             Console.WriteLine("\nDigite 1 para Cadastrar: ");
             Console.WriteLine("Digite 2 para Apagar um item: ");
             Console.WriteLine("Digite 3 para Editar um item: ");
