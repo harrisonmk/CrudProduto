@@ -1,4 +1,4 @@
-# CrudProduto
+# Console Application - CrudProduto
 
 * Se você estiver usando o Visual Studio, normalmente não é necessário compilar manualmente, pois o Visual Studio faz isso automaticamente.
 * Se você estiver usando um editor de código simples (por exemplo, Visual Studio Code), você pode compilar manualmente usando o terminal. 
