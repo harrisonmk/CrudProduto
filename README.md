@@ -10,5 +10,5 @@ Vá para a pasta do seu projeto e execute o seguinte comando (substitua NomeDoAr
 * Se você estiver usando um editor de código simples, vá para a pasta onde o executável foi gerado (geralmente dentro da pasta bin/Debug ou bin/Release) e 
 execute-o usando o comando dotnet (se estiver usando .NET Core) ou apenas o nome do arquivo executável:
 
-**dotnet NomeDoArquivo.dll   # Para .NET Core <br />**
-**NomeDoArquivo.exe          # Para .NET Framework**
+**dotnet NomeDoArquivo.dll**   # Para .NET Core <br />
+**NomeDoArquivo.exe**          # Para .NET Framework
