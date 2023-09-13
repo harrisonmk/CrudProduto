@@ -29,3 +29,13 @@ execute-o usando o comando dotnet (se estiver usando .NET Core) ou apenas o nome
 <div align="center">
 <img src="https://github.com/harrisonmk/CrudProduto/assets/20427134/6a22a14b-70df-41bb-a709-3795ab8bdd49.jpg" width="700px" />
 </div>
+
+##  Tela 3 - ID nao encontrado para a Edicao
+<div align="center">
+<img src="https://github.com/harrisonmk/CrudProduto/assets/20427134/f650e7d9-17e1-4824-8589-8f12d6e5ce46.jpg" width="700px" />
+</div>
+
+##  Tela 3.1 - Produto alterado com sucesso com a busca pelo ID
+<div align="center">
+<img src="https://github.com/harrisonmk/CrudProduto/assets/20427134/4ac4cce6-f1ed-4557-b274-17966e2fb9e8.jpg" width="700px" />
+</div>
