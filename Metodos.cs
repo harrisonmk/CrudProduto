@@ -12,9 +12,20 @@ namespace CrudProduto
         List<Produto> listaDeProdutos = new List<Produto>();
 
 
-        public void adicionar(Produto produto)
+
+        public bool CadastrarProduto(Produto produto)
         {
             listaDeProdutos.Add(produto);
+
+            
+            if (listaDeProdutos.Count > 0)
+            {
+                return true; 
+            }
+            else
+            {
+                return false; 
+            }
         }
 
 
@@ -126,8 +137,18 @@ namespace CrudProduto
                 switch (opcao)
                 {
                     case 1:
-                        adicionar(leitura());
 
+                        
+                        if(CadastrarProduto(leitura()) == true)
+                        {
+                            Console.WriteLine("\n -- Produto Cadastrado com Sucesso! --");
+                        }
+                        else
+                        {
+                            Console.WriteLine("\n -- Erro ao cadastrar Produto! --");
+                            
+                        }
+                        
 
                         break;
                     case 2:
